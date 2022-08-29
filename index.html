@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>waist-height-ratio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Waist to Height Ratio Calculator</h1>
-    <p>Waist circumference(cm):</p>
-    <input type="number" class="waist" value="0">
-    <p>Height(cm):</p>
-    <input type="number" class="height" value="0">
-    <br><br>
-    <button class="calculate">Calculate</button>
-    <p class="result"></p>
+    <p>Waist circumference:</p>
+    <select name="" id="" class="waistSelect">
+      <option value="mm" class="waistMm">milimeters(mm)</option>
+      <option value="cm" class="waistCm">cantimetes(cm)</option>
+      <option value="m" class="waistM">meters(m)</option>
+      <option value="in" class="waistIn">inches(in)</option>
+      <option value="ft" class="waistFt">feet(ft)</option>
+      <option value="yd" class="waistYd">yards(yd)</option>
+    </select>
+    <input type="number" class="waist" value="" />
+    <p>Height:</p>
+    <select name="" id="" class="heightSelect">
+      <option value="mm" class="heightMm">milimeters(mm)</option>
+      <option value="cm" class="heightCm">cantimetes(cm)</option>
+      <option value="m" class="heightM">meters(m)</option>
+      <option value="in" class="heightIn">inches(in)</option>
+      <option value="ft" class="heightFt">feet(ft)</option>
+      <option value="yd" class="heightYd">yards(yd)</option>
+    </select>
 
-</body>
-<script src="./app.js"></script>
+    <input type="number" class="height" value="" />
+    <br /><br />
+    <h4>Result:</h4>
+    <p class="result"></p>
+  </body>
+  <script src="./app.js"></script>
 </html>
