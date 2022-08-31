@@ -1,9 +1,8 @@
-const waist = document.querySelector(".waist");
-const height = document.querySelector(".height");
-const calculate = document.querySelector(".calculate");
-const result = document.querySelector(".result");
-const waistSelect = document.querySelector(".waistSelect");
-const heightSelect = document.querySelector(".heightSelect");
+const waist = document.getElementById("waist");
+const height = document.getElementById("height");
+const result = document.getElementById("result");
+const waistSelect = document.getElementById("waistSelect");
+const heightSelect = document.getElementById("heightSelect");
 
 let preValHeight = "mm";
 let preValWaist = "mm";

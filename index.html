@@ -10,7 +10,7 @@
   <body>
     <h1>Waist to Height Ratio Calculator</h1>
     <p>Waist circumference:</p>
-    <select name="" id="" class="waistSelect">
+    <select name="" id="waistSelect" class="waistSelect">
       <option value="mm" class="waistMm">milimeters(mm)</option>
       <option value="cm" class="waistCm">cantimetes(cm)</option>
       <option value="m" class="waistM">meters(m)</option>
@@ -18,9 +18,9 @@
       <option value="ft" class="waistFt">feet(ft)</option>
       <option value="yd" class="waistYd">yards(yd)</option>
     </select>
-    <input type="number" class="waist" value="" />
+    <input type="number" class="waist" id="waist" value="" />
     <p>Height:</p>
-    <select name="" id="" class="heightSelect">
+    <select name="" id="heightSelect" class="heightSelect">
       <option value="mm" class="heightMm">milimeters(mm)</option>
       <option value="cm" class="heightCm">cantimetes(cm)</option>
       <option value="m" class="heightM">meters(m)</option>
@@ -29,10 +29,10 @@
       <option value="yd" class="heightYd">yards(yd)</option>
     </select>
 
-    <input type="number" class="height" value="" />
+    <input type="number" class="height" id="height" value="" />
     <br /><br />
     <h4>Result:</h4>
-    <p class="result"></p>
+    <p class="result" id="result"></p>
   </body>
   <script src="./app.js"></script>
 </html>
